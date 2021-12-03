@@ -38,7 +38,7 @@ class WhoAmI extends Component {
         <a href={link}>Ny profile</a>
 		<form>
 			<span>Введите должность</span>
-			<input type="text" onChange={(e) => this.commitInputChanged(e, 'some clor')}/>
+			<input type="text" onChange={(e) => this.commitInputChanged(e, 'some color')}/>
 		</form>
       </div>
    )
